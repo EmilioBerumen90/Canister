@@ -1,0 +1,86 @@
+/*-----------------Video Gallery---------------------*/
+.vid-gallery{
+
+    width: 100%;
+    display: flex;
+    box-shadow: 0 15px 15px rgb(0, 0, 0,0.3);
+    background: rgba(240,239,234,25);
+    background-size: 100%;
+    padding-top: 50px;
+
+
+}
+
+.vid-gallery .video-list{
+
+width: 50% ;
+padding: 10px;
+padding-right: 0;
+
+}
+
+.vid-gallery .video-list video{
+
+    width: 700px;
+    object-fit: cover;
+    height: 250px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.vid-gallery .video-list video.active,
+.vid-gallery .video-list video:hover{
+
+    background: crimson;
+    box-shadow: black inset;
+
+}
+
+.vid-gallery .main-vid{
+
+    width: 100%;
+    padding: 10px;
+
+}
+
+.vid-gallery .main-vid video{
+
+height: 100%;
+width: 100%;
+outline: none;
+padding: 10px;
+background: black;
+box-shadow: black inset;
+
+}
+
+
+.gallery-title{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: crimson;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.vid-des{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.synopsis{
+    padding-top: 0px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+
+}
